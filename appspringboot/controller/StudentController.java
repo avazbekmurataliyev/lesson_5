@@ -14,11 +14,11 @@ import java.util.List;
 public class StudentController {
 
 List<Student> studentList = new ArrayList<>(Arrays.asList(
-        new Student(1,"Avazbek","+998 932 03 24","Murataliyev"),
-        new Student(2,"Hello","+998 932 00 00","Hi"),
-        new Student(3,"Nice","+998 xxx xx xx","Good"),
-        new Student(4,"Great","+xxx 111 22 33","Wonderful"),
-        new Student(5,"Not bad","+222 xxx 22 11","Really Good")
+        new Student(1,"Avazbek","+998 932 03 24","Spring"),
+        new Student(2,"Hello","+998 932 00 00","Hi see"),
+        new Student(3,"Nice","+998 xxx xx xx","History"),
+        new Student(4,"Great","+xxx 111 22 33","Wonderful chef"),
+        new Student(5,"Not bad","+222 xxx 22 11","Driver course")
 
 ));
     //READ this list
