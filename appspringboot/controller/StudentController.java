@@ -77,5 +77,18 @@ List<Student> studentList = new ArrayList<>(Arrays.asList(
         return "bunday student mavjud emas";
 
     }
+     @RequestMapping(value = "/student/{id}" , method = RequestMethod.DELETE)
+    public String deleteStudent(@PathVariable Integer id){
+
+        for (Student student : studentList) {
+            if (student.getId() == id){
+                studentList.remove(student);
+                return "Malumot o`chirildi";
+            }
+        }
+
+
+        return "Malumot mavjud emas";
+    }
 
 }
